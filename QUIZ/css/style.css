@@ -1,0 +1,116 @@
+body{
+
+}
+*{
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+}
+.header{
+padding: 60px 15px;
+text-align: center;
+background: #eee;
+text-transform: uppercase;
+color: #333;
+}
+.head{
+  padding: 25px 15px;
+  text-align: center;
+  background: #eee;
+  text-transform: uppercase;
+  color: #333;
+
+}
+.container{
+width: 700px;
+margin: auto;
+}
+.content{
+width: 250px;
+margin: auto;
+padding: 30px 15px;
+min-height: 420px;
+}
+.content h3{
+margin:0 0;
+padding-left: 5px;
+padding-bottom: 20px;
+text-transform: capitalize;
+}
+.content p{
+margin: 25px 0;
+text-transform: capitalize;
+padding: 10px;
+}
+.content ul{
+list-style: none;
+}
+.content ul li{
+padding:  15px;
+padding-left: 3px;
+padding-top: 10px;
+padding-bottom:25px;
+}
+.content a{
+width: 260px;
+background: #eee;
+border-radius:5px;
+border: 0;
+padding: 15px;
+margin-top: 20px;
+text-decoration: none;
+}
+.content a:hover{
+  cursor: pointer;
+  color: red;
+}
+label{
+  display: inline-block;
+  width:180px;
+}
+input[type='text']{
+  width:97%;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px #ccc  solid;
+}
+input[type='number']{
+  width:50px;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px #ccc  solid;
+}
+.container input[type='radio']{
+
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px #ccc  solid;
+}
+.content input[type="submit"]{
+background: #333;
+color: #fff;
+padding: 5px 15px;
+border: 0;
+border-radius:5px;
+margin-top: 20px;
+}
+.footer{
+padding: 49px 15px;
+background: #000;
+color: #fff;
+text-align: center;
+text-transform: capitalize;
+}
+.current{
+  padding: 10px;
+  background: #f4f4f4;
+  border: 1px dotted #ooo;
+  padding: 2px 13px;
+}
+@media only screen and (max-width: 960px){
+   .container{
+     width:80%;
+      }
+}
